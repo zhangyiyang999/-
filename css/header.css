@@ -1,0 +1,237 @@
+#header .w{
+	position:relative;
+	z-index:11;
+	height:140px;
+}
+#logo{
+	position:absolute;
+	z-index:2;
+	left:0;
+	top:-31px;
+	width:190px;
+	height:171px;
+	-moz-box-shadow:0 -12px 10px rgba(0,0,0,.2);
+	box-shadow:0 -12px 10px rgba(0,0,0,.2);
+	background-color:#fff;
+}
+.logo_tit{position:absolute;width:100%;height:100%}
+.logo_tit_lk{
+	overflow:hidden;
+	display:block;
+	width:190px;
+	height:170px;
+	background-image:url(../picture/shortcut/logo.png);
+	background-repeat:no-repeat;
+	
+}
+.search-m{
+	position:relative;
+	z-index:1;
+	height:60px;
+}
+.search-m .search_logo{display:none}
+.search-m .form{
+	position:absolute;
+	left:320px;top:25px;
+	width:550px;
+	height:35px;
+}
+.search-m .button,.search-m .text{
+	position:absolute;
+	top:0;
+	outline:none;
+}
+.search-m .text{
+	left:0;
+	padding:4px;
+	width:490px;
+	height:25px;
+	border:1px solid #f10215;
+	line-height:25px;
+	font-size:14px;
+	color:#989898;
+}
+.search-m .button{
+	right:0;
+	width:50px;
+	height:35px;
+	line-height:0px;
+	border:none;
+	background-color:#f10215;
+	font-size:20px;
+	font-weight:700;
+	color:#fff;
+}
+.search-fix{
+	position:fixed;
+	z-index:100;
+	left:0;
+	top:0;
+	width:100%;
+	border-bottom:2px solid #f10214;
+	background-color:#fff;
+	-moz-box-shadow:2px 2px 2px rgba(0,0,0,.2);
+	box-shadow:2px 2px 2px rgba(0,0,0,.2);
+}
+.cssanimations .search-fix{
+	-webkit-animation:searchTop .5s ease-in-out;
+	-moz-animation:searchTop .5s ease-in-out;
+	animation:searchTop .5s ease-in-out;
+}
+.search-fix .search-m{
+	margin:auto;
+	width:1190px;
+	height:48px;
+}
+.search-fix .search-m .form{
+	top:6px;
+}
+.search-fix .search-m .text{
+	border-color:#efefef;
+	background-color:#efefef;
+}
+.search-fix .search-m .search_logo{
+	display:block;
+	position:absolute;
+	left:0;
+	top:4px;
+	width:125px;
+	height:40px;
+}
+.search-fix .search-m .search_logo_lk{
+	overflow:hidden;
+	display:block;
+	width:125px;
+	height:40px;
+	background-image:url(../picture/shortcut/search_logo.png);
+	background-repeat:no-repeat;
+	text-indent:-999px;
+}
+.search-fix .search-m #shelper{
+	top:40px;
+}
+#search button .iconfont{
+	display: inline-block;
+}
+#settleup{
+	position:absolute;
+	right:0;
+	top:25px;
+}
+#settleup .cw-icon{
+	width:188px;
+	height:33px;
+	background-color:#fff;
+	text-align:center;
+	line-height:33px;
+}
+#settleup .cw-icon i{
+	font-style:normal;
+}
+#settleup .cw-icon .iconfont{
+	margin-right:3px;
+	font-size:16px;
+	color:#f10214;
+}
+#settleup .cw-icon a{
+	color:#f10214;
+}
+#settleup .ci-count{
+	position:absolute;
+	top:5px;left:140px;
+	right:auto;
+	display:inline-block;
+	*zoom:1;
+	*display:inline;
+	padding:1px;
+	font-size:12px;
+	line-height:12px;
+	color:#fff;
+	background-color:#f10215;
+	-moz-border-radius:7px;
+	border-radius:7px;
+	min-width:12px;
+	text-align:center;
+}
+#settleup .dropdown-layer{
+	top:35px;
+	right:0;
+	width:308px;
+}
+#settleup .prompt{
+	padding:10px 15px;
+}
+#settleup .nogoods{
+	padding-left:30px;
+	height:49px;
+	line-height:49px;
+	overflow:hidden;
+	color:#999;
+}
+#settleup .nogoods b{
+	float:left;
+	width:56px;
+	height:49px;
+	background-image:url(../picture/shortcut/nocart.png)/*//img11.360buyimg.com/uba/jfs/t3571/299/131233948/1117/a1196554/58004d6dN2927f0f7.png*/
+}
+#hotwords{
+	overflow:hidden;
+	position:absolute;
+	left:320px;
+	top:65px;
+	width:550px;
+	height:20px;
+	line-height:20px;
+}
+#hotwords a{
+	float:left;
+	margin-right:10px;
+	white-space:nowrap;
+	color:#999;
+}
+#hotwords a:hover{
+	color:#c81623;
+}
+#hotwords a.red{
+	color:#f10215;
+}
+#navitems{
+	overflow:hidden;
+	position:absolute;
+	left:200px;
+	bottom:0;
+	width:790px;
+	height:40px；
+}
+#navitems .spacer,#navitems li,#navitems ul{
+	float:left;
+}
+#navitems li{
+	margin-left:30px;
+}
+#navitems a{
+	position:relative;
+	display:block;
+	height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+#navitems a:hover{
+	color:#c81623;
+}
+#navitems .spacer{
+	overflow:hidden;
+	margin-top:15px;
+	margin-left:20px;
+	margin-right:-10px;
+	width:1px;
+	height:10px;
+	background-color:#ccc;
+}
+.o2_ie7 #navitems .spacer,.o2_ie8 #navitems .spacer{
+	margin-top:16px;
+}
+#navitems .promo,#navitems .symbol{
+	display:none;
+}

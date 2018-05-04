@@ -1,0 +1,340 @@
+.main1{
+    height: 275px;
+    width: 1190px;
+    margin:0 auto 30px;
+    /* overflow: hidden; */
+}
+.main1_left{
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 275px;
+    background: #e83632;
+    color: #fff;	
+}
+.time{
+    position: absolute;
+    top: 212px;
+    left: 30px;
+    height: 40px;
+}
+.time1,.time2,.time3{
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #2f3430;
+    margin-right: 5px;
+}
+.jdms{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 42px;
+    font-size: 34px;
+}
+.jdms_e{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 90px;  
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.jdms_bottom{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 170px;
+    font-size: 16px;
+}
+.time_heng{
+    height: 2px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    top:19px;
+    z-index: 1;
+}
+#hours,#minutes,#seconds{
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 9;
+}
+.main1_center{
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 275px;
+    overflow: hidden;   
+}
+.main1_btnLeft{
+    height: 40px;
+    width: 20px;
+    top: 110px;
+    position: absolute;
+    background: rgba(0,0,0,.15);
+}
+.main1_btnLeft i{
+    
+   position: absolute;
+   left: 5px;
+   top: 10px;    
+}
+.main1_btnRight{
+    height: 40px;
+    width: 20px;
+    top: 110px;
+    right: 0;
+    position: absolute;
+    background: rgba(0,0,0,.15);
+}
+.main1_btnRight i{
+    
+   position: absolute;
+   left: 6px;
+   top: 10px;    
+}
+.main1_ul{
+    width: 800px;
+    height: 100%;
+}
+.main1_ul li{
+    position: relative;
+    float: left;
+    width: 199px;
+    height: 100%;
+    border-right:1px solid gray; 
+}
+.main1_ul img{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 30px;
+    top:30px;
+    display: block;
+}
+.mian1_p{
+    position: absolute;
+    top: 190px;
+    
+    width: 160px;
+    padding: 0 30px;
+    line-height: 30px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.piece{
+    position: absolute;
+    left: 15px;
+    top: 230px;
+    width: 160px;
+    height: 20px;
+    padding: 1px;
+    background: #e6382f;
+    line-height: 20px;    
+}
+.piece_new{
+    float: left;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.piece_old{
+    float: left;
+    width: 80px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    color: #b7bcb8;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.main1_right{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 260px;
+    overflow: hidden;
+}
+.main1_right ul{
+    margin-top:8px;
+    margin-bottom:7px;
+    margin-left: 10px;
+    height: 245px;
+}
+.main1_right li{
+    float: left;
+    height: 260px;
+    width: 180px;
+    margin-right: 10px;
+}
+.main2{
+    height: 480px;
+    width: 1190px;
+    margin:0 auto 30px;
+}
+.main2_left{
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 10px 30px 0;
+    background: white;
+}
+.box_head{
+    height: 60px;
+    padding: 0 20px;
+    font-size: 0;
+    line-height: 0;
+    
+}
+.box_head{
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    margin: 8px 0 0 0;
+}
+.box_head h3{
+    float: left;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+    line-height: 44px;
+}
+.main2_center{
+    float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 10px 30px 0;
+    background: white;
+    position: relative;
+}
+.main2_right{
+    float: left;
+    width: 390px;
+    height: 450px;
+    margin: 0 0px 30px 0;
+    background: white;
+}
+.main2 .yin{
+    float: left;
+    font-size: 14px;
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    margin: 12px 0 0 10px;
+}
+.main2 .red{
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    color:red;
+    margin-left: 10px;
+    margin-top:8px;
+}
+.tab_head{
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: #f7f7f7;
+}
+.tab_head_item{
+    float: left;
+    width: 78px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color ease .2s;
+}
+.tab_body{
+    margin: 0 20px;
+    width: 350px;
+    height: 321px;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+.tab_body ul{
+    width: 740px;
+    height: 321px;
+}
+.tab_body li{
+    float: left;
+    width: 350px;
+    height: 321px;
+    margin-right: 20px;
+}
+.tab_bottom{
+    position: absolute;
+    left: 50%;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+.active_red{
+    color: red;
+
+}
+.tab{
+    position: relative;
+    width: 350px;
+    height: 355px;
+    margin: auto;
+    overflow: hidden;
+}
+.tab ul{
+    height:100%;
+    width: 1050px;
+
+}
+.tab li{
+    height:100%;
+    float: left;
+    margin-right: 6px;
+}
+.tab_left{
+    position: absolute;
+    top: 50%;
+    border-radius: 0;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d9d9d9;
+    background-color: rgba(0,0,0,.15);
+    margin-top: -20px;
+    font-size: 20px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    transition: background-color .2s ease;
+}
+.tab_right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 0;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d9d9d9;
+    background-color: rgba(0,0,0,.15);
+    margin-top: -20px;
+    font-size: 20px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    transition: background-color .2s ease;
+}
